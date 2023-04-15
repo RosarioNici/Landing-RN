@@ -1,0 +1,38 @@
+a{
+  text-decoration: none;
+}
+.link:hover{
+  border-bottom: 2px solid #004aad;
+}
+.btn-group{
+  display: none;
+}
+.link{
+  color: #004aad;
+}
+.fa-brands{
+  color: #004aad;
+}
+
+.fa-brands:hover{
+  color: grey;
+}
+
+.navbar{
+  background-color: white;
+}
+
+@media screen and (max-width: 1029px){
+
+  .links{
+    display: none;
+  }
+
+  .btn-group{
+    display:inherit;
+  }
+    .social {
+      display: none;
+    }
+}
+
