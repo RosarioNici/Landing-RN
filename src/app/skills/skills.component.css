@@ -1,0 +1,18 @@
+.skills{
+width: calc(90% / 5);
+}
+
+
+@media screen and (max-width: 662px) {
+
+  .skills {
+  width: calc(90% / 3);
+  }
+}
+
+@media screen and (max-width: 552px) {
+
+  .skills {
+    width: calc(90% / 2);
+  }
+}

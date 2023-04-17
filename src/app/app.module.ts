@@ -9,6 +9,9 @@ import { AboutComponent } from './about/about.component';
 import { AutoTypeWriterDirectiveDirective } from './auto-type-writer-directive.directive';
 import { MeComponent } from './me/me.component';
 import { HeroComponent } from './hero/hero.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { WorksComponent } from './works/works.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -20,6 +23,9 @@ import { HeroComponent } from './hero/hero.component';
     AutoTypeWriterDirectiveDirective,
     MeComponent,
     HeroComponent,
+    ExperienceComponent,
+    WorksComponent,
+    SkillsComponent,
 
   ],
   imports: [

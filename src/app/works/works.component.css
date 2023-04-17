@@ -1,0 +1,12 @@
+.card{
+  width: calc(90%/3);
+}
+
+@media screen and (max-width: 662px) {
+
+  .card {
+    width: calc(90% / 2);
+  }
+}
+
+
