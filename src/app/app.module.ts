@@ -12,6 +12,8 @@ import { HeroComponent } from './hero/hero.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { WorksComponent } from './works/works.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { SkillsComponent } from './skills/skills.component';
     ExperienceComponent,
     WorksComponent,
     SkillsComponent,
+    ContactsComponent,
+    FooterComponent,
 
   ],
   imports: [

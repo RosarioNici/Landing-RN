@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 2px solid #004aad;
+}
+
+.btn-group {
+  display: none;
+}
+
+.link {
+  color: #004aad;
+}
+
+.fa-brands {
+  color: #004aad;
+}
+
+.fa-brands:hover {
+  color: grey;
+}
+
+.btn:hover{
+  background-color: #004aad;
+  color: white;
+  box-shadow: 20px 20px 48px 26px rgba(0, 0, 0, 0.1);
+}
