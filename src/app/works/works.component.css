@@ -2,11 +2,20 @@
   width: calc(90%/3);
 }
 
-@media screen and (max-width: 662px) {
+a{
+  text-decoration: none;
+}
+@media screen and (max-width: 994px) {
 
   .card {
     width: calc(90% / 2);
   }
 }
 
+@media screen and (max-width: 524px) {
+
+  .card {
+    width: calc(90%);
+  }
+}
 
