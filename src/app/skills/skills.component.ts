@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { tech } from './skils.data';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-skills',
@@ -8,5 +9,7 @@ import { tech } from './skils.data';
 })
 export class SkillsComponent {
 data = tech
+
+constructor (public router: Router){}
 
 }

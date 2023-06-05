@@ -1,8 +1,53 @@
-<app-nav></app-nav>
-<app-hero></app-hero>
-<app-me></app-me>
-<app-experience></app-experience>
-<app-works></app-works>
-<app-skills></app-skills>
-<app-contacts></app-contacts>
+<nav class="navbar fixed-top">
+  <div class="container">
+    <div>
+      <a class="navbar-brand" href="#">
+        <img src="../../assets/img/1.png" alt="Bootstrap" width="90" height="90">
+      </a>
+    </div>
+    <div class="social">
+      <a href="https://github.com/RosarioNici" target="_blank"><i class="p-2 fs-2 fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rosario-nici/" target="_blank"><i
+          class="p-2 fs-2 fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/rosarionici/" target="_blank"><i
+          class="p-2 fs-2 fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="links">
+      <ul class="d-flex justify-content-between" style="list-style-type: none;">
+        <li><a class="p-2 fs-2 link" href="About">ABOUT</a></li>
+        <li><a class="p-2 fs-2 link" href="Experience">EXPERIENCE</a></li>
+        <li><a class="p-2 fs-2 link" href="Works">WORKS</a></li>
+        <li><a class="p-2 fs-2 link" href="Skills">SKILLS</a></li>
+        <li><a class="p-2 fs-2 link" href="Contacts">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="btn-group dropstart">
+      <button style="color: #004aad;" class="btn dropdown-toggle fw-bold fs-2" type="button" data-bs-toggle="dropdown"
+        data-bs-auto-close="true" aria-expanded="false">
+        Links
+      </button>
+      <ul class="dropdown-menu" style="border: none">
+        <li><a class="dropdown-item link fs-3" href="About">ABOUT</a></li>
+        <li><a class="dropdown-item link fs-3" href="Experience">EXPERIENCE</a></li>
+        <li><a class="dropdown-item link fs-3" href="Works">WORKS</a></li>
+        <li><a class="dropdown-item link fs-3" href="Skills">SKILLS</a></li>
+        <li><a class="dropdown-item link fs-3" href="Contacts">CONTACT</a></li>
+        <li>
+          <a class="dropdown-item link fs-3" href="https://github.com/RosarioNici" target="_blank"><i
+              class="p-2 fs-2 fa-brands fa-github"></i> GitHub</a>
+          <a class="dropdown-item link fs-3" href="https://www.linkedin.com/in/rosario-nici/" target="_blank"><i
+              class="p-2 fs-2 fa-brands fa-linkedin"></i> Linkedin</a>
+          <a class="dropdown-item link fs-3" href="https://www.instagram.com/rosarionici/" target="_blank"><i
+              class="p-2 fs-2 fa-brands fa-instagram"></i> Instagram</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<app-hero ></app-hero>
+<app-me id="About"></app-me>
+<app-experience id="Experience"></app-experience>
+<app-works id="Works"></app-works>
+<app-skills id="Skills"></app-skills>
+<app-contacts id="Contacts"></app-contacts>
 <app-footer></app-footer>

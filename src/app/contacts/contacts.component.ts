@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contacts',
@@ -8,5 +9,6 @@ import { Component, Input } from '@angular/core';
 export class ContactsComponent {
 @Input() titleContact : string = 'Contact'
 
+constructor(public router: Router){}
 
 }
