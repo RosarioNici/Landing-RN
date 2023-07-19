@@ -63,4 +63,8 @@ export const tech = [
     img:'../../assets/img/mysql.svg',
     name:'MySQL',
   },
+  {
+    img:'../../assets/img/ServiceNOW.jpg',
+    name:'ServiceNow',
+  },
 ]
